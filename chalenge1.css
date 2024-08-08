@@ -1,0 +1,54 @@
+body{
+    border:10px solid black;
+    margin:5px;
+}
+.container{
+    margin:50px;
+}
+a:link,a:active,a:visited
+{
+color:purple;
+}
+button{
+    width:100%;
+    padding-top: 10px;
+    background-color: aqua;
+    color:rgb(255, 51, 0);
+    border:100px;
+}
+button:hover{
+    color:black;
+    background-color: blue;
+}
+.shapes{
+    display:flex;
+    gap:10px;
+}
+.sh{
+    width:20px;
+    height:20px;
+}
+.shape-1{
+    background-color: green;
+}
+.shape-2{
+    background-color: red;
+}
+.shape-3{
+    background-color: rgb(58, 0, 128);
+}
+.shape-4{
+    background-color: rgb(117, 128, 0);
+}
+.shape-5{
+    background-color: rgb(150, 28, 75);
+}
+.sale{
+    padding:5px 10px;
+    position:absolute;
+    background-color: red;
+    top:-10px;
+    left:-10px;
+    letter-spacing: 5px;
+}
+
